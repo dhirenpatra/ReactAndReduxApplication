@@ -1,0 +1,77 @@
+store.dispatch(
+        addTodo({
+          id: 0,
+          task: "Learn Redux",
+          completed: false,
+        })
+      );
+
+      store.dispatch(
+        addTodo({
+          id: 3,
+          task: "Practice Redux",
+          completed: false,
+        })
+      );
+
+      store.dispatch(
+        addTodo({
+          id: 4,
+          task: "Master Redux",
+          completed: false,
+        })
+      );
+
+      store.dispatch(
+        addTodo({
+          id: 1,
+          task: "Learn React",
+          completed: true,
+        })
+      );
+
+      store.dispatch(
+        addGoal({
+          id: 1,
+          task: "Be a fullstack developer",
+          completed: true,
+        })
+      );
+
+      store.dispatch(
+        addGoal({
+          id: 2,
+          task: "Be a backend developer",
+          completed: true,
+        })
+      );
+
+      store.dispatch(
+        addGoal({
+          id: 3,
+          task: "Be a frontend developer",
+          completed: true,
+        })
+      );
+
+      store.dispatch(
+        addGoal({
+          id: 4,
+          task: "Be a gentle developer",
+          completed: true,
+        })
+      );
+
+      store.dispatch(
+        addGoal({
+          id: 5,
+          task: "Be a lead cum developer",
+          completed: true,
+        })
+      );
+
+      store.dispatch(removeGoal(2));
+
+      store.dispatch(removeTodo(1));
+
+      store.dispatch(toggleTodo(0));
